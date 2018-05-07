@@ -17,3 +17,4 @@ for tweet in public_tweets:
     print(tweet.text)
     analysis = TextBlob(tweet.text)
     print(analysis.sentiment)
+    print("////")
